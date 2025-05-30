@@ -4,12 +4,15 @@ import Link from 'next/link';
 import Header from '@/app/components/Header';
 import Footer from '@/app/components/Footer';
 
-interface PageProps {
-  params: { id: string };
-}
 const allProducts = [...textiles, ...spices];
 
-export default function ProductDetailsPage({ params }: PageProps) {
+interface ProductPageProps {
+  params: {
+    id: string;
+  };
+}
+
+export default async function ProductDetailsPage({ params }: ProductPageProps) {
   const { id } = params;
   const product = allProducts.find((p) => p.id === id);
 
@@ -36,7 +39,6 @@ export default function ProductDetailsPage({ params }: PageProps) {
       <main className="min-h-screen w-full px-6 sm:px-12 md:px-20 lg:px-32 py-16 bg-gradient-to-b from-slate-50 to-indigo-50 flex justify-center">
         <article className="bg-white rounded-3xl shadow-2xl max-w-6xl w-full overflow-hidden">
           <div className="flex flex-col lg:flex-row">
-            {/* Image Section */}
             <div className="lg:w-1/2 relative h-80 sm:h-[30rem] lg:h-auto rounded-t-3xl lg:rounded-l-3xl overflow-hidden">
               <Image
                 src={product.image}
@@ -48,17 +50,13 @@ export default function ProductDetailsPage({ params }: PageProps) {
               />
             </div>
 
-            {/* Details Section */}
             <div className="lg:w-1/2 p-8 sm:p-12 flex flex-col justify-between">
               <div>
                 <h1 className="text-5xl font-extrabold text-indigo-900 mb-6">{product.name}</h1>
                 <p className="text-teal-700 font-semibold uppercase tracking-wider mb-8">
                   Category: {product.category}
                 </p>
-                <div
-                  className="text-gray-700 text-lg leading-relaxed space-y-6 max-h-[65vh] overflow-y-auto pr-6"
-                  style={{ scrollbarGutter: 'stable' }}
-                >
+                <div className="text-gray-700 text-lg leading-relaxed space-y-6 max-h-[65vh] overflow-y-auto pr-6">
                   {descriptionParagraphs.map((para, i) => (
                     <p key={i} className="text-justify">{para}</p>
                   ))}
@@ -74,7 +72,6 @@ export default function ProductDetailsPage({ params }: PageProps) {
             </div>
           </div>
 
-          {/* Product Highlights */}
           {product.highlights && (
             <section className="px-8 sm:px-12 lg:px-16 py-12 border-t mt-12">
               <h2 className="text-3xl font-bold text-indigo-800 mb-8">Product Highlights</h2>
@@ -86,7 +83,6 @@ export default function ProductDetailsPage({ params }: PageProps) {
             </section>
           )}
 
-          {/* Why Choose Section */}
           {product.whyChoose && (
             <section className="px-8 sm:px-12 lg:px-16 py-12 border-t bg-indigo-50 rounded-b-3xl">
               <h2 className="text-3xl font-bold text-indigo-800 mb-6">Why Choose {product.name}?</h2>
