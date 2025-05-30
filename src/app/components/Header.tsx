@@ -1,4 +1,5 @@
 'use client';
+import Image from 'next/image';
 import Link from 'next/link';
 import Script from 'next/script';
 import { useEffect } from 'react';
@@ -6,13 +7,12 @@ import { useEffect } from 'react';
 interface GoogleWindow extends Window {
   google: {
     translate: {
-      TranslateElement: new (
-        options: {
-          pageLanguage: string;
-          layout: unknown; // if you know the exact type, replace 'unknown' with it
-        },
-        elementId: string
-      ) => void;
+      TranslateElement: {
+        InlineLayout: {
+          SIMPLE: unknown;
+        };
+        new(options: object, elementId: string): void;
+      };
     };
   };
   googleTranslateElementInit: () => void;
@@ -21,48 +21,50 @@ interface GoogleWindow extends Window {
 
 export default function Header() {
 
-useEffect(() => {
-  if (typeof window !== 'undefined') {
- const typedWindow = window as unknown as GoogleWindow;
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const typedWindow = window as unknown as GoogleWindow;
 
-    typedWindow.googleTranslateElementInit = function () {
-      new typedWindow.google.translate.TranslateElement(
-        {
-          pageLanguage: 'en',
-          layout: (typedWindow.google.translate as any).TranslateElement.InlineLayout.SIMPLE,
-        },
-        'google_translate_element'
-      );
+      typedWindow.googleTranslateElementInit = function () {
+        new typedWindow.google.translate.TranslateElement(
+          {
+            pageLanguage: 'en',
+            layout: (typedWindow.google.translate as any).TranslateElement.InlineLayout.SIMPLE,
+          },
+          'google_translate_element'
+        );
 
-      setTimeout(() => {
-        const select = document.querySelector<HTMLSelectElement>('#google_translate_element select.goog-te-combo');
-        if (select) {
-          select.style.appearance = 'none';
-          select.style.display = 'inline-block';
-          select.style.verticalAlign = 'middle';
-          select.style.whiteSpace = 'nowrap';
-          select.style.height = '30px';
-          select.style.paddingRight = '32px';
-          select.style.backgroundImage =
-            "url(\"data:image/svg+xml;utf8,<svg fill='black' height='12' viewBox='0 0 24 24' width='12' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>\")";
-          select.style.backgroundRepeat = 'no-repeat';
-          select.style.backgroundPosition = 'right 10px center';
-          select.style.backgroundSize = '12px 12px';
-        }
-      }, 1500);
-    };
-  }
-}, []);
+        setTimeout(() => {
+          const select = document.querySelector<HTMLSelectElement>('#google_translate_element select.goog-te-combo');
+          if (select) {
+            select.style.appearance = 'none';
+            select.style.display = 'inline-block';
+            select.style.verticalAlign = 'middle';
+            select.style.whiteSpace = 'nowrap';
+            select.style.height = '30px';
+            select.style.paddingRight = '32px';
+            select.style.backgroundImage =
+              "url(\"data:image/svg+xml;utf8,<svg fill='black' height='12' viewBox='0 0 24 24' width='12' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>\")";
+            select.style.backgroundRepeat = 'no-repeat';
+            select.style.backgroundPosition = 'right 10px center';
+            select.style.backgroundSize = '12px 12px';
+          }
+        }, 1500);
+      };
+    }
+  }, []);
 
   return (
     <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-100">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-2">
         {/* Logo: keep size consistent, and vertical align center */}
         <Link href='/'>
-          <img
+          <Image
             src="/logo.png"
             alt="Vedant Exports Logo"
-            className="h-[70px] w-[70px] object-contain"
+            width={70}
+            height={70}
+            className="object-contain"
           />
         </Link>
 
