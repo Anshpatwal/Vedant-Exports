@@ -4,16 +4,24 @@ import Link from 'next/link';
 import Script from 'next/script';
 import { useEffect } from 'react';
 
+interface GoogleTranslateElement {
+  InlineLayout: {
+    SIMPLE: number; // or string depending on actual type, usually number
+  };
+}
+
+interface GoogleTranslate {
+  TranslateElement: {
+    InlineLayout: {
+      SIMPLE: number;
+    };
+    new(options: { pageLanguage: string; layout: number }, elementId: string): void;
+  };
+}
+
 interface GoogleWindow extends Window {
   google: {
-    translate: {
-      TranslateElement: {
-        InlineLayout: {
-          SIMPLE: unknown;
-        };
-        new(options: object, elementId: string): void;
-      };
-    };
+    translate: GoogleTranslate;
   };
   googleTranslateElementInit: () => void;
 }
@@ -29,7 +37,7 @@ export default function Header() {
         new typedWindow.google.translate.TranslateElement(
           {
             pageLanguage: 'en',
-            layout: (typedWindow.google.translate as any).TranslateElement.InlineLayout.SIMPLE,
+            layout: typedWindow.google.translate.TranslateElement.InlineLayout.SIMPLE,
           },
           'google_translate_element'
         );
