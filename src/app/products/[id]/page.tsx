@@ -4,13 +4,12 @@ import Link from 'next/link';
 import Header from '@/app/components/Header';
 import Footer from '@/app/components/Footer';
 
-interface Params {
+interface PageProps {
   params: { id: string };
 }
-
 const allProducts = [...textiles, ...spices];
 
-export default function ProductDetailsPage({ params }: Params) {
+export default function ProductDetailsPage({ params }: PageProps) {
   const { id } = params;
   const product = allProducts.find((p) => p.id === id);
 
