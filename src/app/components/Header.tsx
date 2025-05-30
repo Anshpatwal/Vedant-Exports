@@ -1,45 +1,58 @@
 'use client';
-
-import { useRouter } from 'next/navigation';
-import { useTranslation } from 'next-i18next';
 import Link from 'next/link';
 import Script from 'next/script';
 import { useEffect } from 'react';
 
+interface GoogleWindow extends Window {
+  google: {
+    translate: {
+      TranslateElement: new (
+        options: {
+          pageLanguage: string;
+          layout: unknown; // if you know the exact type, replace 'unknown' with it
+        },
+        elementId: string
+      ) => void;
+    };
+  };
+  googleTranslateElementInit: () => void;
+}
+
+
 export default function Header() {
-  const { i18n } = useTranslation();
-  const router = useRouter();
 
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-      (window as any).googleTranslateElementInit = function () {
-        new (window as any).google.translate.TranslateElement(
-          {
-            pageLanguage: 'en',
-            layout: (window as any).google.translate.TranslateElement.InlineLayout.SIMPLE,
-          },
-          'google_translate_element'
-        );
+useEffect(() => {
+  if (typeof window !== 'undefined') {
+ const typedWindow = window as unknown as GoogleWindow;
 
-        setTimeout(() => {
-          const select = document.querySelector<HTMLSelectElement>('#google_translate_element select.goog-te-combo');
-          if (select) {
-            select.style.appearance = 'none';
-            select.style.display = 'inline-block';
-            select.style.verticalAlign = 'middle';
-            select.style.whiteSpace = 'nowrap'; // prevent wrapping
-            select.style.height = '30px';
-            select.style.paddingRight = '32px';
-            select.style.backgroundImage =
-              "url(\"data:image/svg+xml;utf8,<svg fill='black' height='12' viewBox='0 0 24 24' width='12' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>\")";
-            select.style.backgroundRepeat = 'no-repeat';
-            select.style.backgroundPosition = 'right 10px center';
-            select.style.backgroundSize = '12px 12px';
-          }
-        }, 1500);
-      };
-    }
-  }, []);
+    typedWindow.googleTranslateElementInit = function () {
+      new typedWindow.google.translate.TranslateElement(
+        {
+          pageLanguage: 'en',
+          layout: (typedWindow.google.translate as any).TranslateElement.InlineLayout.SIMPLE,
+        },
+        'google_translate_element'
+      );
+
+      setTimeout(() => {
+        const select = document.querySelector<HTMLSelectElement>('#google_translate_element select.goog-te-combo');
+        if (select) {
+          select.style.appearance = 'none';
+          select.style.display = 'inline-block';
+          select.style.verticalAlign = 'middle';
+          select.style.whiteSpace = 'nowrap';
+          select.style.height = '30px';
+          select.style.paddingRight = '32px';
+          select.style.backgroundImage =
+            "url(\"data:image/svg+xml;utf8,<svg fill='black' height='12' viewBox='0 0 24 24' width='12' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>\")";
+          select.style.backgroundRepeat = 'no-repeat';
+          select.style.backgroundPosition = 'right 10px center';
+          select.style.backgroundSize = '12px 12px';
+        }
+      }, 1500);
+    };
+  }
+}, []);
 
   return (
     <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-100">

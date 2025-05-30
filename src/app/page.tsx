@@ -5,7 +5,7 @@ import { ChangeEvent, FormEvent } from 'react';
 import { useState } from 'react';
 import Footer from './components/Footer';
 import Link from 'next/link';
-import ContactPage from './contact/page';
+
 
 type InquiryForm = {
   product: string;

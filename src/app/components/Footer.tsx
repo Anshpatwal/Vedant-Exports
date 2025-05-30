@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Footer() {
     {/* Footer Section */ }
@@ -27,10 +28,10 @@ export default function Footer() {
             <div className="space-y-4">
                 <h4 className="text-lg font-semibold text-white mb-2">Quick Links</h4>
                 <ul className="space-y-3">
-                    <li><a href="#" className="text-slate-400 hover:text-teal-400 transition-colors text-sm">About Us</a></li>
-                    <li><a href="#" className="text-slate-400 hover:text-teal-400 transition-colors text-sm">Our Services</a></li>
-                    <li><a href="#" className="text-slate-400 hover:text-teal-400 transition-colors text-sm">Export Process</a></li>
-                    <li><a href="#" className="text-slate-400 hover:text-teal-400 transition-colors text-sm">Quality Assurance</a></li>
+                    <li><Link href="#" className="text-slate-400 hover:text-teal-400 transition-colors text-sm">About Us</Link></li>
+                    <li><Link href="#" className="text-slate-400 hover:text-teal-400 transition-colors text-sm">Our Services</Link></li>
+                    <li><Link href="#" className="text-slate-400 hover:text-teal-400 transition-colors text-sm">Export Process</Link></li>
+                    <li><Link href="#" className="text-slate-400 hover:text-teal-400 transition-colors text-sm">Quality Assurance</Link></li>
                 </ul>
             </div>
 
@@ -39,14 +40,14 @@ export default function Footer() {
                 <h4 className="text-lg font-semibold text-white mb-2">Our Products</h4>
                 <ul className="space-y-3">
                     <li>
-                        <a href="/products/spices" className="text-slate-400 hover:text-teal-400 transition-colors text-sm">
+                        <Link href="/products/spices" className="text-slate-400 hover:text-teal-400 transition-colors text-sm">
                             Spices (Cumin, Black Pepper)
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="/products/textiles" className="text-slate-400 hover:text-teal-400 transition-colors text-sm">
+                        <Link href="/products/textiles" className="text-slate-400 hover:text-teal-400 transition-colors text-sm">
                             Textiles
-                        </a>
+                        </Link>
                     </li>
                 </ul>
             </div>
@@ -72,7 +73,7 @@ export default function Footer() {
                             width={18}
                             height={18}
                         />
-                        <a href="tel:+917912345678" className="hover:text-teal-400">+91 8799473680</a>
+                        <Link href="tel:+917912345678" className="hover:text-teal-400">+91 8799473680</Link>
                     </div>
                     <div className="flex items-center gap-3">
                         <Image
@@ -81,7 +82,7 @@ export default function Footer() {
                             width={18}
                             height={18}
                         />
-                        <a href="mailto:export@globalcrest.com" className="hover:text-teal-400">anshpatwal2703@gmail.com</a>
+                        <Link href="mailto:export@globalcrest.com" className="hover:text-teal-400">anshpatwal2703@gmail.com</Link>
                     </div>
                 </div>
             </div>
@@ -91,22 +92,22 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto px-6 mt-12 pt-8 border-t border-slate-800">
             <div className="flex flex-col md:flex-row justify-between items-center gap-4">
                 <div className="flex space-x-6">
-                    <a href="#" className="text-slate-400 hover:text-white transition-colors">
+                    <Link href="#" className="text-slate-400 hover:text-white transition-colors">
                         <Image
                             src="https://img.icons8.com/ios-filled/50/FFFFFF/linkedin.png"
                             alt="LinkedIn"
                             width={24}
                             height={24}
                         />
-                    </a>
-                    <a href="#" className="text-slate-400 hover:text-white transition-colors">
+                    </Link>
+                    <Link href="#" className="text-slate-400 hover:text-white transition-colors">
                         <Image
                             src="https://img.icons8.com/ios-filled/50/FFFFFF/facebook.png"
                             alt="Facebook"
                             width={24}
                             height={24}
                         />
-                    </a>
+                    </Link>
                 </div>
                 <div className="text-center md:text-left">
                     <p className="text-slate-400 text-sm">
