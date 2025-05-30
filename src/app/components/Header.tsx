@@ -4,11 +4,6 @@ import Link from 'next/link';
 import Script from 'next/script';
 import { useEffect } from 'react';
 
-interface GoogleTranslateElement {
-  InlineLayout: {
-    SIMPLE: number; // or string depending on actual type, usually number
-  };
-}
 
 interface GoogleTranslate {
   TranslateElement: {
