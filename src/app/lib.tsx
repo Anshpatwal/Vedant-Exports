@@ -12,229 +12,227 @@ export interface Product {
 
 export const textiles: Product[] = [
     {
-        id: 'cotton-fabric',
-        name: 'Cotton Fabric',
+        id: 'multicolor-embroidery',
+        name: 'Multicolor Embroidery',
         description: `
-Cotton fabric is one of the most widely used natural textiles in the world, known for its softness, breathability, and versatility. Our cotton fabric is sourced from premium-quality cotton cultivated in the fertile plains of India, particularly Gujarat, which is renowned for producing some of the finest cotton fibers globally. The cotton is harvested using sustainable practices, ensuring minimal environmental impact and preserving the purity of the material.
+Multicolor embroidery is a vibrant and intricate art form that brings life to fabric through the use of various colored threads. At Vedant Exports, we specialize in high-quality multicolor embroidery crafted with precision and rooted in traditional Indian techniques. Our embroidery work is executed on fine base fabrics like cotton, silk, viscose, or polyester, and is available in a variety of traditional and contemporary patterns.
 
-Our cotton fabric stands out due to its high thread count, uniform weave, and smooth texture, making it an ideal choice for a wide range of applications—from fashion garments to home textiles and industrial usage. It is meticulously processed and finished to ensure color retention, shrinkage control, and a luxurious feel. Whether you are looking to create casual wear, formal attire, bedsheets, curtains, or upholstery, our fabric provides a strong foundation for every creative endeavor.
+Each piece is a testament to skilled craftsmanship, with artisans blending an array of hues to create eye-catching motifs — from delicate florals and paisleys to modern geometric designs. These embroideries are widely used in the fashion and home textile industries to add a touch of elegance, cultural richness, and artistic depth.
 
 Key Features:
 
-Breathable and Skin-Friendly: Cotton is known for its ability to allow air circulation, making garments made from this fabric comfortable to wear in hot and humid climates. Its hypoallergenic nature also makes it suitable for sensitive skin.
+Vibrant Color Palette: Using a spectrum of high-quality threads, our embroidery showcases vivid color combinations that are both bold and tasteful. Perfect for festive and formal wear.
 
-Highly Absorbent: Cotton can absorb moisture effectively, keeping the skin dry and comfortable throughout the day. This property is particularly valued in making towels, undergarments, and summer wear.
+Artisanal Detailing: Every embroidered piece is handcrafted or produced with precision machines under artisan supervision to ensure consistency and authenticity in every stitch.
 
-Durable Yet Soft: With proper spinning and weaving techniques, our cotton fabric achieves a balance between softness and durability. It holds up well to regular washing and daily use.
+Durability with Elegance: Our embroidery threads are colorfast and made to last through regular usage and washing, maintaining their beauty over time.
 
-Eco-Friendly Production: We prioritize organic and sustainable farming practices. The cotton used in our fabric is grown without harmful pesticides or chemicals, contributing to a safer environment and better farmer health.
+Base Fabric Flexibility: We offer multicolor embroidery on various base fabrics like pure cotton, silk blends, viscose georgette, and linen, depending on the final application.
 
-Dye-Friendly Surface: The fabric absorbs dye evenly, ensuring vibrant, long-lasting colors. It is suitable for block printing, screen printing, and digital printing processes.
+Custom Patterns Available: Whether you’re seeking ethnic Indian motifs or modern minimalist aesthetics, our design team can bring your vision to life through custom embroidery.
 
 Applications:
 
-Apparel Industry: Designers and manufacturers use our cotton fabric to produce a wide variety of garments including shirts, dresses, T-shirts, children’s clothing, and traditional Indian attire like kurtis and salwar suits.
+Fashion Industry: Widely used in ethnic wear like sarees, lehengas, kurtis, and dupattas as well as in modern silhouettes such as jackets, skirts, gowns, and tops.
 
-Home Textiles: Its soft and cozy feel makes it ideal for home furnishings such as bedsheets, pillowcases, cushion covers, tablecloths, and curtains.
+Home Décor: Enhances cushion covers, bed runners, curtains, table linens, and wall art with artistic detailing.
 
-Craft and DIY Projects: Crafters appreciate cotton for quilting, embroidery, and making fabric-based art. Its ease of handling makes it a favorite for beginners and professionals alike.
+Accessories & Crafts: Used in handbags, footwear, scarves, belts, and DIY art projects that need a colorful, textured element.
 
-Medical and Personal Use: Cotton is extensively used in making bandages, baby clothes, reusable diapers, and sanitary pads due to its absorbency and non-irritating nature.
+Festive & Bridal Wear: A preferred embellishment for high-end bridal collections and festive attire, giving garments a luxurious and celebratory feel.
 
 Quality Assurance:
 
-Our cotton fabric undergoes rigorous testing at every stage of production—from fiber selection to weaving and dyeing. It is free from harmful substances and complies with OEKO-TEX Standard 100 certifications. We offer fabrics in various weights and weaves such as plain, twill, satin, and poplin to cater to different customer requirements.
+Our embroidery is crafted using premium-grade threads that meet international quality standards. We ensure minimal thread shedding, excellent color retention, and uniform stitching across all pieces. Custom sampling and pre-production approvals are part of our rigorous quality process.
 
 Customization Options:
 
-Buyers can request:
+We offer:
 
-Different GSM (grams per square meter) options depending on intended use
-
-Reactive or pigment dye finishes
-
-Printed patterns using block, screen, or rotary printing
-
-Pre-shrunk or mercerized versions
-
-Special finishes like water-repellent, wrinkle-resistant, or anti-microbial
+– Choice of thread colors (as per Pantone codes or customer preference)  
+– Fabric selection and embroidery placement options  
+– Machine and hand embroidery options  
+– Add-ons like sequins, zari, mirrors, or beads for enhanced detailing  
+– Sample swatches before final production  
 
 Export Advantage:
 
-Being located in Surat—India’s textile capital—we have seamless access to mills, skilled labor, and advanced textile infrastructure. Our cotton fabric is competitively priced and delivered with assured consistency. We provide tailored export packaging and comply with international trade regulations to ensure hassle-free global shipping.
+Located in Surat, the hub of Indian textile innovation, we leverage a strong artisan network and cutting-edge embroidery facilities to deliver globally competitive products. We ensure secure packaging, timely logistics, and documentation for smooth international trade.
 
-Sustainability & Social Impact:
+Sustainability & Social Responsibility:
 
-Our cotton fabric supports ethical farming and employment in rural communities. We partner with local farmers, promote fair wages, and encourage women-led weaving groups to empower the artisan community. Every meter of cotton fabric you buy supports livelihoods and preserves traditional craftsmanship.
+Vedant Exports supports ethical sourcing, fair wages, and sustainable production. Our embroidery units provide employment opportunities for rural women artisans and uphold traditional Indian craft techniques, ensuring that every embroidered piece carries a social impact.
 
-Why Choose Vedant Exports for Cotton Fabric?
+Why Choose Vedant Exports for Multicolor Embroidery?
 
-Vedant Exports offers unmatched quality and service in every order. Our cotton fabric isn't just a material—it’s a legacy of Indian craftsmanship combined with modern innovation. Whether you're a fashion designer, wholesaler, or importer, we provide bulk customization, quick lead times, and personalized customer support to help you achieve your business goals.
+Our embroidery work is a fusion of artistic heritage and contemporary trends. Vedant Exports guarantees vibrant, high-quality embroidery with scalable production, quick turnaround times, and global shipping support. Whether you're a designer, retailer, or wholesaler, we provide tailored solutions to meet your creative and commercial needs.
 
-Let your products speak the language of purity, softness, and elegance with our premium cotton fabric.
+Let your garments and interiors speak in vivid colors with our premium multicolor embroidery.
 
-For samples, bulk orders, or trade inquiries, contact us.
-`
-        ,
+For catalogs, sampling, or bulk inquiries, contact us.
+    `,
         category: 'Textiles',
-        image: '/cotton-textiles.jpeg',
+        image: '/multicolor-embroidery.jpg',
         highlights: [
-            'Available in plain, printed, and dyed options',
-            'Eco-friendly and AZO-free dyes used',
-            'Available in GSM range 80–220',
-            'Cut to size or roll-packed options available',
-            'OEM & private label ready'
+            'Available on cotton, silk, and blended base fabrics',
+            'Customizable color and motif options',
+            'Suitable for both hand and machine embroidery',
+            'AZO-free threads and eco-conscious production',
+            'Ideal for fashion, interiors, and accessories'
         ],
-        whyChoose: `Our cotton textiles are manufactured under strict quality standards using sustainable processes. With reliable logistics and consistent production quality, Vedant Exports is your trusted sourcing partner.`
+        whyChoose: `Vedant Exports offers versatile, high-quality multicolor embroidery solutions for global buyers. Our rich designs, reliable craftsmanship, and ethical production make us a preferred sourcing partner in the textile industry.`
     },
+
     {
-        id: 'bedsheets',
-        name: 'Printed Bedsheets',
-        description: `Printed bedsheets are an essential part of home textiles that bring comfort, style, and personality to your bedroom decor. Our printed bedsheets are crafted from premium-quality fabrics, primarily cotton and cotton blends, carefully selected for their softness, durability, and breathability. Designed and produced with a perfect balance of aesthetics and functionality, these bedsheets offer an unmatched sleeping experience while enhancing the visual appeal of your living space.
+        id: 'dori-ribbon-gpo',
+        name: 'Dori Embroidery with Ribbon GPO',
+        description: `Dori Embroidery with Ribbon GPO is a premium textile embellishment technique that brings together the rich heritage of Indian cord embroidery (Dori work) with the elegance of Ribbon GPO (Guipure Lace Embroidery). This unique fusion creates stunningly detailed, dimensional patterns ideal for luxury garments and haute couture textiles.
 
-Sourced from trusted suppliers and manufacturers in India’s textile hubs, including Surat and Gujarat, our printed bedsheets showcase the rich tradition of Indian craftsmanship combined with modern printing technology. Every sheet features vibrant, long-lasting prints created using eco-friendly dyes and advanced techniques that guarantee colorfastness, softness, and ease of maintenance.
+At Vedant Exports, our Dori Embroidery with Ribbon GPO fabrics are handcrafted by skilled artisans using high-quality cords, silk threads, and decorative ribbons. The Dori, or cord, is stitched onto the base fabric to form bold and raised outlines, while the intricate lacework of Ribbon GPO fills the motifs with delicate, lace-like finishes—creating a mesmerizing contrast of strength and finesse.
 
-Our printed bedsheets collection caters to a wide range of tastes and preferences, offering an extensive variety of designs—from classic floral motifs and geometric patterns to modern abstract art and ethnic prints inspired by Indian heritage. Whether you prefer subtle pastels, bold hues, or intricate detailing, our bedsheets provide options for every style and bedroom theme.
+These textiles are designed for those who seek uniqueness, sophistication, and premium craftsmanship in fashion. Our embroidery work is commonly featured in bridal wear, sarees, lehengas, evening gowns, and high-end ethnic outfits, making them ideal for fashion houses, retailers, and export buyers who value intricate artistry and quality.
 
 Key Features:
 
-Premium Fabric Quality: Our printed bedsheets are primarily made of high-grade cotton or cotton blends that provide a soft, smooth feel and excellent breathability. The natural fibers ensure moisture absorption and ventilation, making the sheets comfortable to use throughout the year.
+Artisanal Excellence: Every piece is crafted by experienced artisans from India’s embroidery hubs like Surat and Lucknow. Our artisans specialize in traditional dori and ribbon techniques, ensuring authenticity and finesse in every design.
 
-Vibrant and Durable Prints: Using reactive and pigment dye printing techniques, our bedsheets maintain their bright colors even after multiple washes. The prints are precisely applied with intricate detail, ensuring no compromise on quality or design clarity.
+Luxurious Texture & Finish: The corded outlines of dori embroidery offer a bold 3D effect, while the ribbon GPO adds soft, lace-like intricacy. This creates a layered and tactile texture that elevates the garment’s appeal.
 
-Skin-Friendly and Hypoallergenic: The fabric and dyes used in our bedsheets are safe for all skin types, including sensitive skin and children. The materials are free from harmful chemicals and allergens, providing a healthy sleep environment.
+Premium Raw Materials: We use high-quality cotton, silk, viscose cords, and satin or organza ribbons sourced from trusted suppliers. The base fabrics range from net, georgette, and velvet to silk and chanderi, depending on design requirements.
 
-Wrinkle-Resistant and Easy Care: These bedsheets are designed to be easy to wash and maintain, retaining their softness and vibrant look without excessive ironing. They are durable enough to withstand daily use while maintaining a fresh appearance.
+Design Versatility: From floral vines and paisley motifs to geometric and baroque patterns, our design catalog covers both traditional and contemporary styles. Custom designs can be developed for exclusive collections.
 
-Wide Size and Design Range: Available in standard sizes including single, double, queen, and king, our printed bedsheets fit various mattress dimensions. Multiple design themes and color palettes ensure that every customer can find a perfect match.
+Durability & Finish: Despite their delicate appearance, our embroidery fabrics are durable and stable. Each piece undergoes multiple quality checks for thread strength, ribbon integrity, and finishing precision.
 
 Applications:
 
-Bedroom Essentials: Ideal for everyday use, our printed bedsheets bring both comfort and style to your sleeping quarters. They complement a variety of bedroom decors, from modern minimalistic to traditional Indian interiors.
+Bridal & Festive Wear: A popular choice for lehengas, sarees, dupattas, and gowns due to its royal and handcrafted appeal.
 
-Hotel and Hospitality Use: Due to their durability and elegant appeal, these bedsheets are preferred in hotels, resorts, and guest houses that prioritize guest comfort alongside aesthetic appeal.
+Fashion Collections: Preferred by designers and boutiques for limited-edition collections and premium catalogues.
 
-Gift and Festive Collections: Printed bedsheets make thoughtful and attractive gifts for weddings, housewarmings, and festivals. Our wide variety ensures you can find the right design for every occasion.
+Home Textiles & Accessories: Used in cushion covers, curtains, and decorative panels to add an ethnic or regal touch.
 
-Home Decor Projects: Interior designers and decorators often choose our printed bedsheets as statement pieces or accents to transform bedrooms and guest rooms.
+Export Garments: Ideal for overseas buyers seeking premium Indian embroidered fabrics with distinct identity and craftsmanship.
 
 Quality Assurance:
 
-We maintain strict quality control measures throughout the production process—from fabric procurement and printing to cutting and stitching. Our printed bedsheets comply with international quality certifications, including OEKO-TEX Standard 100, guaranteeing the absence of harmful substances. Every bedsheet undergoes multiple quality checks to ensure consistent texture, color vibrancy, and stitching strength.
+Our Dori Embroidery with Ribbon GPO products go through rigorous inspection processes. From material selection and embroidery to final finishing, each step is closely monitored by our quality control team. Fabrics are tested for colorfastness, dimensional stability, and embroidery adhesion.
 
 Customization Options:
 
-Choice of fabric: 100% cotton, cotton-polyester blends, or premium sateen finish
+Custom Motif Development: Tailored patterns and motifs can be created as per buyer requirements or seasonal themes.
 
-Various thread counts and GSM (grams per square meter) for softness and durability preferences
+Choice of Fabrics: Available on multiple base fabrics like net, silk, velvet, or georgette to match different product categories.
 
-Custom print designs or corporate branding for bulk orders
+Color & Material Variants: Cords and ribbons are available in various shades and finishes — matte, metallic, pastel, or glossy.
 
-Packaging customization for retail or export purposes
+MOQ Flexibility for Sampling & Bulk Orders
 
-Pre-shrunk and easy-care finishes
+Private Labeling & Custom Packaging for exports
 
 Export Advantage:
 
-Located in Surat, India’s textile capital, we have easy access to advanced manufacturing units, skilled artisans, and state-of-the-art printing technology. Our strategic location allows us to deliver competitively priced printed bedsheets with reliable lead times. We handle all export documentation and logistics, ensuring smooth international shipping that meets global standards.
+With manufacturing units and artisan networks based in Surat, Gujarat — India’s textile and embroidery capital — we offer competitive pricing, scalable production, and efficient logistics. Vedant Exports manages complete export documentation and quality compliance, ensuring timely delivery worldwide.
 
 Sustainability & Social Impact:
 
-We are committed to sustainable textile production by using eco-friendly dyes, minimizing water and energy consumption, and supporting organic cotton farming wherever possible. Our partnership with local artisans and rural women’s cooperatives ensures fair wages and promotes traditional crafts. By choosing our printed bedsheets, you contribute to environmental conservation and empower artisan communities.
+Our embroidery units support rural artisans, especially women’s cooperatives, helping preserve traditional craft skills while providing fair wages. We also aim to minimize waste by reusing embroidery trims and promoting eco-friendly dyes wherever possible.
 
-Why Choose Vedant Exports for Printed Bedsheets?
+Why Choose Vedant Exports for Dori Embroidery with Ribbon GPO?
 
-Vedant Exports is your trusted partner for high-quality printed bedsheets that combine artistic design, fabric excellence, and ethical production. Whether you are a retailer, wholesaler, or importer, we provide tailored solutions that fit your business needs, including bulk orders, private labeling, and customized designs. Our dedicated customer support and fast delivery ensure a seamless buying experience.
+Vedant Exports blends traditional craftsmanship with modern quality standards. Our embroidered textiles offer beauty, authenticity, and global appeal. We are your reliable partner for sourcing high-quality embellished fabrics, whether for fashion labels, boutiques, or textile import businesses. Our flexible sampling, responsive customer service, and timely exports make us a preferred supplier in the embroidered fabric space.
 
-Elevate your bedroom experience with our beautiful printed bedsheets that add color, comfort, and charm to every home.
+Elevate your fashion line or retail collection with the rich textures and craftsmanship of Dori Embroidery with Ribbon GPO — a signature of elegance and tradition.
 
-For samples, bulk orders, or trade inquiries, contact us.`,
+For samples, custom designs, or trade inquiries, contact us.`,
         category: 'Textiles',
-        image: '/printed-bedsheet.jpeg',
+        image: '/dori-embrodiery.jpg',
         highlights: [
-            'Wide variety of ethnic and modern prints',
-            'Machine washable and long-lasting colors',
-            'Available in single, double, and king sizes',
-            'Bulk customization for export orders',
-            'Fabric: Cotton, polycotton, or satin blends'
+            'Combination of 3D dori and intricate ribbon lace',
+            'Handcrafted by skilled artisans in Gujarat',
+            'Suitable for bridal, festive, and couture garments',
+            'Custom motifs and fabric bases available',
+            'Ideal for export with private labeling support'
         ],
-        whyChoose: `Vedant Exports offers bedsheets that combine tradition and comfort. Our in-house team ensures quality checks for thread count, stitching, and colorfastness — making us a reliable textile export partner.`
+        whyChoose: `Vedant Exports combines heritage embroidery techniques with international quality standards. Our in-house design and quality teams ensure every piece is crafted with precision — making us a trusted source for premium embroidered textiles.`
     },
+
     {
-        id: 'scarves',
-        name: 'Fashion Scarves',
-        description: `Fashion scarves are timeless accessories that combine style, versatility, and functionality. At Vedant Exports, our collection of fashion scarves is meticulously crafted from premium fabrics such as cotton, silk, chiffon, viscose, and wool blends, designed to elevate any outfit while offering comfort and elegance. Whether used as a statement piece, a light wrap, or a layering accessory, our scarves are an essential addition to modern wardrobes across the globe.
+        id: 'beads-embroidery',
+        name: 'Beads Embroidery',
+        description: `Beads embroidery is a luxurious and intricate textile art form that transforms fabric into masterpieces using shimmering beads and detailed craftsmanship. At Vedant Exports, our beads embroidery collections are a testament to timeless beauty, cultural elegance, and meticulous handiwork. Perfect for haute couture, bridalwear, festive attire, and premium fashion accessories, our embroidered fabrics are crafted to elevate garments with richness, texture, and visual allure.
 
-Sourced from expert textile manufacturers and artisans in Gujarat and other renowned Indian textile centers, each scarf reflects a rich heritage of craftsmanship combined with contemporary design sensibilities. The fabrics used are chosen for their softness, drape, durability, and ability to hold vibrant colors and intricate patterns, ensuring that every scarf is both beautiful and long-lasting.
+Sourced from skilled artisans across Gujarat and other Indian embroidery hubs, our beads embroidery combines traditional techniques with contemporary flair. Each piece is crafted with precision using premium beads, including glass, plastic, metallic, crystal, and pearl-finish variants. The embroidery is executed on fine fabrics like georgette, net, velvet, silk, chiffon, and organza, chosen for their ability to hold embellishments gracefully.
 
-Our fashion scarves come in a wide array of styles, colors, and patterns — from traditional block prints and ethnic motifs to bold abstract prints and minimalist modern designs. This diversity allows our scarves to cater to a broad spectrum of customers, including fashion-conscious individuals, boutiques, retailers, and exporters looking for high-quality, fashionable accessories.
+Our collection features a wide array of design styles—from Mughal-inspired floral patterns and classic paisleys to modern geometric layouts and abstract themes. The combination of beadwork with sequins, threads, stones, and zari creates stunning textures and a regal appeal, catering to high-end fashion houses, designers, and garment exporters worldwide.
 
 Key Features:
 
-Premium Fabric Selection: We use a variety of fabrics such as soft cotton, luxurious silk, lightweight chiffon, and warm wool blends, ensuring each scarf is suitable for different seasons, occasions, and customer preferences.
+Handcrafted Precision: Each piece is embroidered by skilled artisans who bring decades of expertise to the craft. The bead placement, pattern alignment, and symmetry are done with utmost care to ensure excellence in every inch.
 
-Vibrant and Durable Prints: Using advanced printing and dyeing techniques including digital printing, screen printing, and hand-block printing, our scarves maintain their color intensity and design clarity even after repeated use and washing.
+Diverse Bead Types: We use a curated selection of beads, including glass-cut beads, bugle beads, seed beads, and crystal variants, each adding its unique texture, luster, and weight to the embroidery.
 
-Exceptional Softness and Comfort: The fabric quality combined with expert finishing processes makes our scarves soft to touch and comfortable against the skin, suitable for even sensitive skin types.
+Fabric Versatility: Our bead embroidery can be done on various luxurious fabrics such as silk, velvet, tulle, net, and organza, making them suitable for bridal gowns, ethnic wear, scarves, dupattas, and evening dresses.
 
-Lightweight and Easy to Style: Our scarves are designed for ease of styling, whether draped, knotted, wrapped, or layered, providing endless fashion possibilities without adding bulk.
+Rich Aesthetic Appeal: Bead embroidery offers a three-dimensional look with elegant sparkle and rich texture, ideal for creating statement outfits and accessories for premium clientele.
 
-Eco-Friendly and Skin-Safe: All materials and dyes used are certified free from harmful substances, meeting OEKO-TEX Standard 100 and other international safety standards.
+Custom-Ready Designs: Clients can choose from our ready designs or commission bespoke patterns tailored to brand requirements, occasion themes, or market preferences.
 
 Applications:
 
-Fashion Accessory: Perfect for casual wear, office attire, evening events, or festive occasions, our scarves complement various outfits such as dresses, tops, coats, and traditional attire.
+Bridal and Couture Fashion: Beads embroidery is highly sought after in bridal lehengas, wedding gowns, and couture pieces for its opulence and traditional charm.
 
-Seasonal Wear: Lightweight scarves are ideal for spring and summer, offering sun protection and style, while wool and silk blends provide warmth and elegance in autumn and winter.
+Festive and Ethnic Wear: Perfect for sarees, salwar suits, anarkalis, and kurta dupattas designed for festivals, weddings, and special celebrations.
 
-Gifting: Fashion scarves are popular gift items during festivals, weddings, and special occasions. Their wide range of designs and premium quality make them appreciated and cherished presents.
+Luxury Accessories: Used in scarves, stoles, handbags, belts, and footwear to add detail and uniqueness to accessories.
 
-Corporate and Promotional Use: Customizable scarves are ideal for corporate gifting, brand promotions, and uniform accessories, enhancing brand visibility with style.
+Home Decor and Drapery: Select designs are also suitable for cushion covers, table runners, and curtains to add an artisanal touch to interiors.
+
+Fashion Houses and Exporters: Ideal for fashion designers and exporters who cater to luxury markets and require embellishments that stand out.
 
 Quality Assurance:
 
-At Vedant Exports, we enforce stringent quality control at every stage — from fabric sourcing to printing, cutting, and packaging. Our scarves undergo rigorous inspections to ensure consistency in texture, color fidelity, stitching, and finish. We comply with international certifications and offer our customers fabrics tested for durability, colorfastness, and skin safety.
+We maintain stringent quality control processes at every stage — from bead sourcing and fabric selection to embroidery stitching and finishing. Our embroidery products undergo detailed inspections to ensure consistency in color, bead adhesion, design fidelity, and overall finesse. We comply with global standards for export quality, ensuring that every piece reflects premium craftsmanship.
 
 Customization Options:
 
-Choice of fabric type and weight based on seasonal requirements or fashion trends
+Custom color palette and design motif selection for exclusive collections
 
-Custom design printing, including logos, patterns, or bespoke artwork
+Choice of bead types, embroidery density, and placement styles
 
-Variety of sizes from small neck scarves to large shawls and wraps
+Fabric options including semi-sheer, structured, and flowy materials
 
-Packaging tailored for retail or gift purposes, including branded boxes or eco-friendly wrapping
+Panel-based embroidery or full-width designs for specific garment layouts
 
-Options for hand-finished details such as fringes, tassels, or embroidery
+Branded packaging and product labeling for retail or wholesale shipments
 
 Export Advantage:
 
-Operating from Surat and other Indian textile hubs, we have access to skilled artisans, advanced textile technology, and efficient logistics. This enables us to offer competitively priced fashion scarves without compromising quality or delivery timelines. We handle all necessary export documentation and ensure compliance with international trade regulations for smooth global shipping.
+Based in Surat, a leading center for textile and embroidery work, we leverage access to traditional artisans, embroidery clusters, and modern finishing units. Vedant Exports offers competitive pricing, on-time delivery, and complete export support including documentation, packaging, and compliance. Our logistics team ensures smooth global shipments tailored to your market needs.
 
 Sustainability & Social Impact:
 
-Vedant Exports is dedicated to sustainable and ethical textile production. We collaborate with local communities, women’s cooperatives, and organic cotton farmers to promote environmentally friendly practices and fair labor conditions. By choosing our fashion scarves, you support artisans and contribute to preserving traditional crafts and rural livelihoods.
+We believe in preserving India’s heritage embroidery arts while supporting artisan communities. Our work promotes rural employment, empowers women artisans, and sustains traditional bead embroidery skills. We use eco-conscious production methods wherever possible and ensure ethical labor practices across the supply chain.
 
-Why Choose Vedant Exports for Fashion Scarves?
+Why Choose Vedant Exports for Beads Embroidery?
 
-Vedant Exports is synonymous with quality, style, and ethical manufacturing. Our fashion scarves are not just accessories—they are a reflection of culture, craftsmanship, and contemporary fashion trends. We offer bulk customization, quick turnaround times, and personalized customer service to meet the unique needs of retailers, designers, and exporters worldwide.
+Vedant Exports combines heritage artistry with global design sensibilities, offering bead embroidery that speaks of luxury, tradition, and quality. Whether you are a boutique label, fashion designer, or garment exporter, we offer flexible MOQs, tailored solutions, and unmatched craftsmanship to meet your needs.
 
-Enhance your product line with our exquisite fashion scarves that blend heritage, quality, and style in every thread.
+Let our exquisite beads embroidery add timeless elegance and dazzling detail to your fashion line or textile project.
 
-For samples, bulk orders, or trade inquiries, please contact us.
-
-`,
+For samples, design catalogs, or business inquiries, please contact us.`,
         category: 'Textiles',
-        image: '/craves.webp',
+        image: '/beads-emb.jpg',
         highlights: [
-            'Available in solid colors, digital prints, and embroidery',
-            'Soft touch and wrinkle-resistant',
-            'Custom tags and labels available',
-            'MOQ-friendly for new buyers',
-            'Ideal for all seasons'
+            'Handcrafted bead embroidery with premium finishes',
+            'Available on silk, velvet, georgette, and organza',
+            'Custom motifs and colors for bulk orders',
+            'Perfect for bridal, couture, and ethnic garments',
+            'Flexible MOQs and export-ready packaging'
         ],
-        whyChoose: `Our scarves reflect modern fashion trends fused with artisanal Indian craftsmanship. Vedant Exports ensures competitive pricing, flexible quantities, and swift delivery for global buyers.`
+        whyChoose: `Vedant Exports is your trusted source for luxurious beads embroidery backed by artisan excellence, ethical production, and international quality standards. We bring heritage art to modern fashion with precision and care.`
     }
+
 ];
 
 export const spices: Product[] = [
